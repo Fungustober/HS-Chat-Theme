@@ -1,7 +1,7 @@
 /**
  * @name HS Chat Theme
  * @author Fungustober
- * @version 1.0.0
+ * @version 1.0.1
  * @description A theme for discord inspired by the multimedia webcomic Homestuck
  */
  
@@ -358,4 +358,20 @@ html.theme-light::before {
 
 .reactionInner-YJjOtT[aria-pressed*="true"] .reactionCount-26U4As{
 	color: #551A8B;
+}
+
+.bd-footer{
+	background-color: black;
+}
+
+.bd-addon-header{
+	background-color: #35bfff !important;
+}
+
+.bd-description{
+	color: black !important;
+}
+
+.bd-meta{
+	color: black !important;
 }
