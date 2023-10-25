@@ -190,6 +190,10 @@ div[class*="topic"]:after{
 	background-color: #535353!important;
 }
 
+header[class*="header"]{
+	background-color: #535353!important;
+}
+
 section[aria-label="Channel header"]{
 	background-color: #535353!important;
 }
