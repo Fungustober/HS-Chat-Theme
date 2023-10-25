@@ -219,7 +219,7 @@ div[class*="modeMuted"] div[class*="name"]{
 }
 
 div[class*="modeMuted"]{
-		background-color: #535353;
+	background-color: #535353;
 }
 
 
@@ -236,8 +236,8 @@ div[class*="newMessagesBar"]{
 }
 
 div[class*="editor"]{
-	color: #dbdee1;
-	caret-color: #dbdee1;
+	color: #dbdee1!important;
+	caret-color: #dbdee1!important;
 }
 
 span[class*="channelWithIcon"]{
@@ -273,7 +273,7 @@ div[class*="muted"] div[class*="overflow"]{
 }
 
 h3[class*="membersGroup"] span{
-	background-color: #eeeeee;
+	background-color: #eeeeee!important;
 }
 
 div[class*="repliedTextContent"]:first-of-type:before{
@@ -281,7 +281,7 @@ div[class*="repliedTextContent"]:first-of-type:before{
 }
 
 span[class*="roleMention"]{
-	color:black;
+	color:black!important;
 }
 
 .flexChild-3PzYmX .inputDefault-Ciwd-S{
@@ -309,21 +309,21 @@ div[class*="upperContainer"] div[class*="children"] svg[class*="icon"] path{
 	color:black;
 }
 
-div[class*="messageContent"] h1{
-	color:black;
+div[class*="messageContent"] h1 span span:not([style*="color:"]){
+	color:black!important;
 }
 
-div[class*="messageContent"] h2{
-	color:black;
+div[class*="messageContent"] h2 span span:not([style*="color:"]){
+	color:black!important;
 }
 
-div[class*="messageContent"] h3{
-	color:black;
+div[class*="messageContent"] h3 span span:not([style*="color:"]){
+	color:black!important;
 }
 
 [class*="input"]{
-	color: #dbdee1;
-	caret-color: #dbdee1;
+	color: #dbdee1!important;
+	caret-color: #dbdee1!important;
 }
 
 [class*="inputPrefix"] path{
@@ -340,7 +340,7 @@ div[class*="messageContent"] h3{
 }
 
 [class*="content"] a:hover{
-	color: #1b00ee;
+	color: #1b00ee!important;
 }
 
 [class*="iconWrapper"]:not([class*="clickable"]) path:first-of-type{
@@ -350,19 +350,19 @@ div[class*="messageContent"] h3{
 
 [class*="iconWrapper"]:not([class*="clickable"]) path:last-of-type{
 	d:path('M 14.74,10.33C 14.85,10.50 14.91,10.70 14.91,10.95C14.91,11.21 14.85,11.41 14.74,11.57C14.63,11.74 14.45,11.88 14.20,12.00C14.20,12.00 2.56,17.76 2.56,17.76C2.36,17.86 2.17,17.91 2.00,17.91C1.67,17.91 1.40,17.69 1.18,17.26C1.06,17.02 1.00,16.81 1.00,16.62C1.00,16.29 1.20,16.02 1.61,15.82C1.61,15.82 11.69,10.95 11.69,10.95C11.69,10.95 1.61,6.09 1.61,6.09C1.20,5.88 1.00,5.62 1.00,5.29C1.00,5.10 1.06,4.89 1.18,4.65C1.40,4.22 1.67,4.00 2.00,4.00C2.17,4.00 2.36,4.05 2.56,4.15C2.56,4.15 14.20,9.91 14.20,9.91C14.45,10.03 14.63,10.17 14.74,10.33 Z')!important;
-	fill: #dbdee1;
+	fill: #dbdee1!important;
 }
 
 [class*="reactionInner"][aria-pressed*="false"] [class*="reactionCount"]{
-	color: #1b00ee;
+	color: #1b00ee!important;
 }
 
 [class*="reactionInner"]:hover [class*="reactionCount"]{
-	color:white;
+	color:white!important;
 }
 
 [class*="reactionInner"][aria-pressed*="true"] [class*="reactionCount"]{
-	color: #551A8B;
+	color: #551A8B!important;
 }
 
 .bd-footer{
