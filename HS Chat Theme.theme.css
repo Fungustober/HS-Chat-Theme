@@ -1,7 +1,7 @@
 /**
  * @name HS Chat Theme
  * @author Fungustober
- * @version 1.0.6
+ * @version 1.0.7
  * @description A theme for discord inspired by the multimedia webcomic Homestuck
  */
  
@@ -136,17 +136,12 @@ div[class*="iconContainer"][aria-label*="Voice (Limited)"] path{
 	fill: #551A8B;
 }
 
-/*
-attempt at making the voice channels become blue when there's people in there but not you
-largely unsuccessful
-
-div[class*="typeVoice"]:not[class*="modeConnected"] a[class*="link"] div[class*="name"]{
+div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]) div[class*="linkTop"] div[class*="name"]{
 	color: #1b00ee;
 }
-
-div[class*="typeVoice"] a[class*="link"]:not[role*="link"] div[class*="iconContainer"] path{
-	fill: #1b00ee;
-}*/
+div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]) div[class*="linkTop"] div[class*="iconContainer"] path{
+	fill: #1b00ee!important;
+}
 
 div[class*="iconContainer"][aria-label*="Text (Limited)"] path{
 	d:path('M 21.23,4.02 C 21.70,4.25 22.06,4.57 22.30,4.98 C22.56,5.38 22.68,5.86 22.68,6.39 C22.68,6.89 22.58,7.32 22.37,7.68 C22.16,8.03 21.86,8.34 21.45,8.60 C21.05,8.87 20.52,9.13 19.86,9.40 C19.86,9.40 19.75,10.64 19.75,10.64 C19.72,10.93 19.52,11.07 19.16,11.07 C18.78,11.07 18.58,10.93 18.56,10.64 C18.56,10.64 18.45,8.92 18.45,8.92 C18.43,8.81 18.45,8.72 18.50,8.65 C18.54,8.57 18.61,8.52 18.71,8.48 C18.71,8.48 19.34,8.24 19.34,8.24 C19.81,8.05 20.20,7.87 20.47,7.70 C20.75,7.53 20.96,7.34 21.09,7.14 C21.23,6.93 21.29,6.68 21.29,6.39 C21.29,5.96 21.15,5.61 20.84,5.35 C20.54,5.09 20.11,4.96 19.56,4.96 C18.80,4.96 18.16,5.07 17.63,5.28 C17.63,5.28 17.63,6.06 17.63,6.06 C17.63,6.26 17.58,6.40 17.47,6.49 C17.37,6.58 17.20,6.62 16.95,6.62 C16.71,6.62 16.53,6.58 16.43,6.49 C16.33,6.40 16.28,6.26 16.28,6.06 C16.28,6.06 16.28,4.95 16.28,4.95 C16.28,4.83 16.29,4.73 16.33,4.65 C16.37,4.58 16.43,4.51 16.50,4.46 C17.41,3.94 18.42,3.67 19.55,3.67 C20.20,3.67 20.75,3.79 21.23,4.02 Z M 19.94,12.83 C 20.11,12.92 20.19,13.06 20.19,13.26 C20.19,13.26 20.19,14.24 20.19,14.24 C20.19,14.44 20.11,14.58 19.94,14.67 C19.78,14.76 19.52,14.79 19.16,14.79 C18.79,14.79 18.53,14.76 18.36,14.67 C18.20,14.58 18.12,14.44 18.12,14.24 C18.12,14.24 18.12,13.26 18.12,13.26 C18.12,13.06 18.20,12.92 18.36,12.83 C18.53,12.75 18.79,12.71 19.16,12.71 C19.52,12.71 19.78,12.75 19.94,12.83 Z M 11.66,9.59 C 11.74,9.71 11.78,9.86 11.78,10.04 C11.78,10.23 11.74,10.38 11.66,10.49 C11.58,10.61 11.45,10.71 11.27,10.80 C11.27,10.80 2.79,15.00 2.79,15.00 C2.64,15.07 2.51,15.11 2.38,15.11 C2.14,15.11 1.94,14.95 1.78,14.63 C1.70,14.46 1.65,14.30 1.65,14.17 C1.65,13.93 1.80,13.74 2.10,13.59 C2.10,13.59 9.43,10.04 9.43,10.04 C9.43,10.04 2.10,6.50 2.10,6.50 C1.80,6.35 1.65,6.16 1.65,5.91 C1.65,5.78 1.70,5.63 1.78,5.45 C1.94,5.14 2.14,4.98 2.38,4.98 C2.51,4.98 2.64,5.01 2.79,5.09 C2.79,5.09 11.27,9.28 11.27,9.28 C11.45,9.37 11.58,9.47 11.66,9.59 Z')!important;
@@ -179,8 +174,12 @@ div[class*="spineBorder"]{
 	background-color: #c6c6c6;
 }
 
-li[class*="containerDefault"] div[class*="name"] {
+li[class*="containerDefault"] div[class*="name"]{
 	color: #551A8B;
+}
+
+li[class*="containerDefault"] div[class*="list"] div[class*="voiceUser"] div[class*="usernameFont"]{
+	color: #000000!important;
 }
 
 div[class*="modeSelected"] div[class*="name"]{
