@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="readme.css">
-  <h1 align=center>=\></h1>
+  <h1 align=center>=></h1>
   </head>
   <body>
    <div align=center><img src="https://github.com/Fungustober/HS-Chat-Theme/blob/main/images%20for%20the%20funny%20readme%20thing/example6.png?raw=true" alt="Channels">
