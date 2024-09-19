@@ -1,7 +1,7 @@
 /**
  * @name HS Chat Theme
  * @author Fungustober
- * @version 1.1.0
+ * @version 1.1.1
  * @description A theme for discord inspired by the multimedia webcomic Homestuck
  */
  
@@ -140,10 +140,10 @@ div[class*="iconContainer"][aria-label*="Voice (Limited)"] path{
 	fill: #551A8B;
 }
 
-div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]) div[class*="linkTop"] div[class*="name"]{
+div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]):not([aria-label*=" 0 of"]) div[class*="linkTop"] div[class*="name"]{
 	color: #1b00ee;
 }
-div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]) div[class*="linkTop"] div[class*="iconContainer"] path{
+div[class*="typeVoice"] a[role*="button"]:not([aria-label*=" 0 users"]):not([aria-label*=" 0 of"]) div[class*="linkTop"] div[class*="iconContainer"] path{
 	fill: #1b00ee!important;
 }
 
