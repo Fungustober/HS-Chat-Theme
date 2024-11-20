@@ -1,7 +1,7 @@
 /**
  * @name HS Chat Theme
  * @author Fungustober
- * @version 1.1.1
+ * @version 1.1.2
  * @description A theme for discord inspired by the multimedia webcomic Homestuck
  */
  
@@ -268,8 +268,8 @@ div[class*="newMessagesBar"]{
 }
 
 div[class*="editor"]{
-	color: #dbdee1!important;
-	caret-color: #dbdee1!important;
+	color: #dbdee1;
+	caret-color: #dbdee1;
 }
 
 div[class*="messagesWrapper"] div[class*="messageContent"] span[class*="channelWithIcon"]{
@@ -278,10 +278,6 @@ div[class*="messagesWrapper"] div[class*="messageContent"] span[class*="channelW
 
 span[class*="channelWithIcon"] svg[class*="icon"] path{
 	d:path('M 14.74,10.33C 14.85,10.50 14.91,10.70 14.91,10.95C14.91,11.21 14.85,11.41 14.74,11.57C14.63,11.74 14.45,11.88 14.20,12.00C14.20,12.00 2.56,17.76 2.56,17.76C2.36,17.86 2.17,17.91 2.00,17.91C1.67,17.91 1.40,17.69 1.18,17.26C1.06,17.02 1.00,16.81 1.00,16.62C1.00,16.29 1.20,16.02 1.61,15.82C1.61,15.82 11.69,10.95 11.69,10.95C11.69,10.95 1.61,6.09 1.61,6.09C1.20,5.88 1.00,5.62 1.00,5.29C1.00,5.10 1.06,4.89 1.18,4.65C1.40,4.22 1.67,4.00 2.00,4.00C2.17,4.00 2.36,4.05 2.56,4.15C2.56,4.15 14.20,9.91 14.20,9.91C14.45,10.03 14.63,10.17 14.74,10.33 Z')!important;
-}
-
-.embedFieldName-9LYSyR span{
-	color:black;
 }
 
 div[id*="message-content"] span[class*="mention"]{
@@ -316,29 +312,9 @@ span[class*="roleMention"]{
 	color:black!important;
 }
 
-.flexChild-3PzYmX .inputDefault-Ciwd-S{
-	color: #dbdee1;
-}
-
-.select-Zz0IcO .defaultColor-1EVLSt{
-	color: #dbdee1;
-}
-
-.value-2en4z7{
-	color: #dbdee1;
-}
-
 div[class*="upperContainer"] div[class*="children"] svg[class*="icon"] path{
 	d:path('M 14.74,10.33C 14.85,10.50 14.91,10.70 14.91,10.95C14.91,11.21 14.85,11.41 14.74,11.57C14.63,11.74 14.45,11.88 14.20,12.00C14.20,12.00 2.56,17.76 2.56,17.76C2.36,17.86 2.17,17.91 2.00,17.91C1.67,17.91 1.40,17.69 1.18,17.26C1.06,17.02 1.00,16.81 1.00,16.62C1.00,16.29 1.20,16.02 1.61,15.82C1.61,15.82 11.69,10.95 11.69,10.95C11.69,10.95 1.61,6.09 1.61,6.09C1.20,5.88 1.00,5.62 1.00,5.29C1.00,5.10 1.06,4.89 1.18,4.65C1.40,4.22 1.67,4.00 2.00,4.00C2.17,4.00 2.36,4.05 2.56,4.15C2.56,4.15 14.20,9.91 14.20,9.91C14.45,10.03 14.63,10.17 14.74,10.33 Z')!important;
 	fill: #dbdee1;
-}
-
-.heading-xxl-semibold{
-	color:black;
-}
-
-.heading-xxl-extrabold-2-MUEs{
-	color:black;
 }
 
 h1 em span {
@@ -353,21 +329,16 @@ h1 a span{
 	color: #1b00ee!important;
 }
 
-div[class*="messageContent"] h1 span>span:not([style*="color:"]){
+div[class*="messageContent"] h1 span{
 	color:black!important;
 }
 
-div[class*="messageContent"] h2 span>span:not([style*="color:"]){
+div[class*="messageContent"] h2 span{
 	color:black!important;
 }
 
-div[class*="messageContent"] h3 span>span:not([style*="color:"]){
-	color:black!important;
-}
-
-[class*="input"]{
-	color: #dbdee1!important;
-	caret-color: #dbdee1!important;
+div[class*="messageContent"] h3 span{
+	color:black;
 }
 
 [class*="inputPrefix"] path{
@@ -439,7 +410,6 @@ div[class*="cover"] path{
 	transform: translate(-1px,0px);
 }
 
-
 div[class*="container"]:has([class*="emptyChannelIcon"]) h3[class*="defaultColor"]{
 	color:black;
 }
@@ -478,6 +448,10 @@ div[class*="accountProfileCard"] div[class*="fieldList"] h3[class*="eyebrow"]{
 
 div[class*="accountProfileCard"] div[class*="fieldList"] span[class*="text-md"]{
 	color:#535353!important;
+}
+
+div[class*="editor"] span[class*="inlineCode"] span{
+	color:black;
 }
 
 /*div[class*="messagesPopoutWrap"]
